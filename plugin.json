@@ -34,11 +34,6 @@
           "signatureHelp": true,
           "typeHierarchy": true
         }
-      },
-      "loggingConfig": {
-        "env": {
-          "RUBY_LSP_LOG_LEVEL": "info"
-        }
       }
     }
   }
