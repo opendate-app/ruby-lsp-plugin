@@ -4,17 +4,13 @@
   "description": "Ruby LSP integration for Claude Code - provides go-to-definition, find-references, and hover documentation for Ruby files",
   "lspServers": {
     "ruby": {
-      "command": "/Users/scald/.rbenv/shims/ruby-lsp",
+      "command": "ruby-lsp",
       "args": [],
       "extensionToLanguage": {
         ".rb": "ruby",
         ".rake": "ruby",
         ".gemspec": "ruby",
         ".ru": "ruby"
-      },
-      "env": {
-        "PATH": "/Users/scald/.rbenv/shims:/Users/scald/.rbenv/bin:/usr/local/bin:/usr/bin:/bin",
-        "RBENV_ROOT": "/Users/scald/.rbenv"
       }
     }
   }
